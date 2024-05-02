@@ -1,7 +1,8 @@
 1. npm init -y
 2. Create a database with 5 tables in Postgres following ./server/db.sql.
 3. npm i express cors nodemon pg dotenv
-4. Create .env file in ./server
+4. npm install jsonwebtoken
+5. Create .env file in ./server
 	PORT = 3001
 	DB_USER = 
 	DB_HOST = 
