@@ -19,5 +19,5 @@ HTML:
 - About us: _about-us-content-new.html
 - Chinese recipes: chinese_Yanwen.html
 - Chinese detail recipe: recipe_detail.html
-- Post new recipe: postnewrecipe,html
+- Post new recipe: postnewrecipe.html
 Script font end: in js file
