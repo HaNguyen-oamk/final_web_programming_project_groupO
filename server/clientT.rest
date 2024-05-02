@@ -1,0 +1,54 @@
+### Get all data (both Vietnamese and Chinese Recipes)
+GET http://localhost:3001/all
+
+### Get all data from Vietnamese_Recipes table
+GET http://localhost:3001/Vietnamese_Recipes
+
+### Get data from Vietnamese_Recipes table by dish ID
+GET http://localhost:3001/Vietnamese_Recipes/:id
+
+
+
+# For indexT.js 
+### Get all data (both Vietnamese and Chinese Recipes)
+# GET http://localhost:3001/all
+
+# ### Get all Vietnamese recipes
+# GET http://localhost:3001/vietnamese
+
+# ### Get all Chinese recipes
+# GET http://localhost:3001/chinese
+
+# ### Get Vietnamese recipw by dishId
+# GET http://localhost:3001/vietnamese/:dishId
+
+# ### Get Chinese recipw by dishId
+# GET http://localhost:3001/chinese/:dishId
+
+ ### get cmt
+ GET http://localhost:3001/cmt/VN-0002
+
+# ### Add new cmt
+# POST http://localhost:3001/cmt/new HTTP/1.1
+# content-type: application/json
+
+# {
+#   "commenter_name": "Name",
+#   "comment_content": "Test"
+#   "dishId": "VN-0001"
+# }
+
+# ### login with valid credentials
+# POST http://localhost:3001/user/login
+# Content-Type: application/json
+
+# {
+#   "email": "123@qq.com",
+#   "password": "password123"
+# }
+### logout
+ POST http://localhost:3001/user/logout
+Content-Type: application/json
+
+{}
+
