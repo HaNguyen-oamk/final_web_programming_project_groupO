@@ -4,6 +4,17 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "nodemon": "^3.1.0",
     "pg": "^8.11.5"
-  }
+  },
+  "name": "final_web_programming_project_groupo",
+  "description": "1. npm init -y\r 2. Create a database with 5 tables in Postgres following ./server/db.sql.\r 3. npm i express cors nodemon pg dotenv\r 4. Create .env file in ./server\r \tPORT = 3001\r \tDB_USER = \r \tDB_HOST = \r \tDB_NAME = \r \tDB_PASSWORD = \r \tDB_PORT =",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
